@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+
+}
+
+.container{
+    border: solid black 2px;
+    width: 1000px;
+    height: 800px;
+    padding: 50px;
+}
+
+.section-one{
+    text-align: center;
+    border: solid #F885C1 1px;
+    background-color: #F885C1;
+    padding: 10px;
+}
+
+.section-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card-list{
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.card-list p{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+
+}
